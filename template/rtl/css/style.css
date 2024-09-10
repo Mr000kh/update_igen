@@ -264,7 +264,22 @@ Version: 1.0
    height: 322px;
    overflow-y: scroll;
 }
-
+.bg-primary {
+    background-color: #08254f !important;
+}
+.page-item.active .page-link{
+    background-color: #08254f !important;
+    border-color: #08254f !important;
+}
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-right: -1px;
+    line-height: 1.25;
+    color: #08254f;
+    background-color: #fff;
+}
 .osahan-chat-list {
    overflow-y: auto;
    height: 463px;
@@ -275,6 +290,9 @@ Version: 1.0
 .blog-card .card-footer img {
     margin: 0 0px 0 11px;
      width: 33px;
+ }
+ .text-white{
+    color: #f4f5f9 !important;
  }
  .blog-card .badge {
      font-size: 12px;
@@ -297,7 +315,7 @@ Version: 1.0
  }
  .blog-card .badge-success {
      background-color: rgba(0, 216, 200, 0.09);
-     color: #00d8c8;
+     color: #5c5de8;
  }
  .blog-card .badge-dark {
      background-color: rgba(52, 58, 64, 0.19);
@@ -305,7 +323,7 @@ Version: 1.0
  }
  .blog-card .badge-info {
      background-color: rgba(23, 160, 184, 0.17);
-     color: #17a2b8;
+     color: #5c5de8;
  }
  .blog-card .badge-white {
      background-color: rgba(255, 255, 255, 0.81);
@@ -364,7 +382,7 @@ ul.sidebar-card-list {
     list-style: none;
 } 
 .footer-social a {
-    background: #007bff;
+    background: #08254f;
     color: #fff;
     width: 24px;
     height: 24px;
@@ -444,7 +462,7 @@ ul.sidebar-card-list {
      color: #ffc107 !important;
 }
  .text-info {
-     color: #00dffc !important;
+     color: #6eaef3 !important;
 }
  .bg-success {
      background-color: #00c9a7 !important;
