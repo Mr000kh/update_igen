@@ -56,7 +56,7 @@ Version: 1.0
 }
  .osahan-nav-top .container {
      padding: 0 16px;
-     background-color: #f4f5f9;
+     background-color: #08254f;
 }
  .osahan-nav-top .img-profile {
      width: 30px;
@@ -87,7 +87,7 @@ Version: 1.0
      align-items: center;
 }
  .osahan-nav-top .navbar-search .form-control {
-     background: #132028;
+     background: #ffffff;
 }
  .osahan-nav-top .navbar-search .btn {
      background: #132028 !important;
@@ -568,7 +568,7 @@ ul.sidebar-card-list {
      background-color: #b7b9cc;
 }
  .bg-dark {
-     background: #1d2f38 !important;
+     background: #08254f !important;
 }
 .form-control, .btn {
     font-size: 13px;
