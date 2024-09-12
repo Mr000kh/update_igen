@@ -93,6 +93,12 @@ Version: 1.0
      background: #132028 !important;
      color: #74828e;
 }
+.navbar-light .navbar-nav .nav-link{
+    color: #f4f5f9;
+}
+.navbar-light .navbar-brand{
+    color: #f4f5f9;
+}
  .dropdown-list .dropdown-item {
      white-space: normal;
      padding-top: .5rem;
