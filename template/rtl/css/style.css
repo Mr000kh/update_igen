@@ -56,7 +56,8 @@ Version: 1.0
 }
  .osahan-nav-top .container {
      padding: 0 16px;
-     background-color: #08254f;
+     /* background-color: #08254f; */
+     background: linear-gradient( to right, #03435a,rgb(37, 150, 190),#03435a);
 }
  .osahan-nav-top .img-profile {
      width: 30px;
@@ -207,10 +208,11 @@ Version: 1.0
      border-color: #187fb9;
      background-color: #187fb9;
      color: #fff;
+     margin-bottom: 10px;
 }
- .btn-outline-facebook {
-     border-color: #43619d;
-     background-color: #43619d;
+ .btn-outline-Gogle {
+     border-color: #187fb9;
+     background-color: #187fb9;
      color: #fff;
 }
 /* End Login Page Designs */
@@ -574,7 +576,7 @@ ul.sidebar-card-list {
      background-color: #b7b9cc;
 }
  .bg-dark {
-     background: #08254f !important;
+     background: #03435a !important;
 }
 .form-control, .btn {
     font-size: 13px;
